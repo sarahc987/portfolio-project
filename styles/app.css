@@ -89,6 +89,9 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .hero p {
+    font-size: 25px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
