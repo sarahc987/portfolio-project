@@ -38,6 +38,37 @@ img {
   border-radius: 4px;
 }
 
+nav {
+  padding: 20px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 35px;
+  margin-left: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 0.7;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -134,6 +165,14 @@ img {
   h2 {
     font-size: 45px;
   }
+  nav ul {
+    font-size: 14px;
+  }
+
+  nav li {
+    font-size: 14px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
