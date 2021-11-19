@@ -45,14 +45,7 @@ nav {
   padding: 20px;
 }
 
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 35px;
-  margin-left: 10px;
-}
-
-nav ul {
+nav .navbar {
   margin: 0;
   padding: 0;
 }
@@ -68,7 +61,7 @@ nav a:hover {
   color: var(--branding-color);
 }
 
-nav li.active a {
+nav a .active {
   color: var(--branding-color);
 }
 
@@ -215,19 +208,17 @@ footer .social-links a:hover {
     line-height: 55px;
   }
   h2 {
-    font-size: 45px;
-  }
-  nav ul {
-    font-size: 14px;
+    font-size: 35px;
   }
 
-  nav li {
-    font-size: 14px;
+  nav a {
+    font-size: 12px;
   }
 
   .hero p {
     font-size: 25px;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -235,6 +226,7 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+    max-width: 100%;
   }
   .work-img {
     padding: 10px;

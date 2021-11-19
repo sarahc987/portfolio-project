@@ -35,22 +35,27 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <p><a href="/index.html" title="Homepage">Sarah Cox</a></p>
-        <ul>
-          <li class="active">
-            <a href="/index.html" title="Homepage">Home</a>
-          </li>
-          <li>
-            <a href="/about.html" title="About Sarah">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Sarah's Work">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Contact Sarah">Contact</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/index.html">Sarah Cox</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/index.html">Home</a>
+            <a class="nav-item nav-link" href="/about.html">About</a>
+            <a class="nav-item nav-link" href="/work.html">Work</a>
+            <a class="nav-item nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
       </nav>
     </div>
     <div class="hero">
