@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #5397ff;
+  --secondary-color: #dbe9ff;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -197,6 +197,16 @@ footer .social-links a:hover {
 }
 .work-dictionary {
   padding-bottom: 62px;
+}
+
+.weather-app-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.headshot {
+  max-height: 500px;
+  margin-left: 50px;
 }
 
 @media (max-width: 960px) {
