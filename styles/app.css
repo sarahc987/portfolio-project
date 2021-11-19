@@ -231,4 +231,7 @@ footer .social-links a:hover {
   .work-img {
     padding: 10px;
   }
+  .container {
+    max-width: 100%;
+  }
 }
