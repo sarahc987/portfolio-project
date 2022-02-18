@@ -178,6 +178,15 @@ footer .social-links a:hover {
   margin-left: 50px;
 }
 
+.contact-btn {
+  margin-top: 26px;
+}
+
+.weather-img {
+  margin-top: 51px;
+  margin-bottom: 55px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
